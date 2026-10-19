@@ -1,5 +1,8 @@
 # Guodance Drama Director
 
+仓库地址：https://github.com/guoAIduan/guodance-drama-director  
+直接下载：[guodance-drama-director.zip](https://github.com/guoAIduan/guodance-drama-director/archive/refs/heads/main.zip)
+
 Guodance 是一套面向竖屏短剧的 AI 导演工作流：从剧本体检、角色与场景资产锁定、段级分镜，到 Seedance 提示词、生成质检、配音口型、剪辑调色和平台交付，一条链路跑完。
 
 默认视频主引擎是 **Seedance**（2.5 或当前可用版本）；Guodance 负责导演方法、生产流程和质量控制。两者解耦，换成其他图生视频模型也能用。
@@ -27,6 +30,14 @@ guodance-drama-director/
 ## 安装
 
 把整个 `guodance-drama-director` 文件夹放到 Codex 的技能目录：
+
+方式一：下载 ZIP，解压后把 `guodance-drama-director` 文件夹复制到技能目录。
+
+方式二：克隆仓库。
+
+```bash
+git clone https://github.com/guoAIduan/guodance-drama-director.git
+```
 
 Windows:
 
