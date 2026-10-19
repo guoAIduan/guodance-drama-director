@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "project": "{{EPISODE}}",
+  "format": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "segments": [
+    {
+      "id": "D01",
+      "scene": "S01",
+      "clip": "clips/D01_take1.mp4",
+      "in": 0.0,
+      "out": 8.0,
+      "transition": "cut",
+      "audio": "audio/segments/D01.wav"
+    },
+    {
+      "id": "D02",
+      "scene": "S01",
+      "clip": "clips/D02_take1.mp4",
+      "in": 0.0,
+      "out": 7.0,
+      "transition": "cut",
+      "audio": "audio/segments/D02.wav"
+    }
+  ],
+  "bgm": [
+    {
+      "file": "audio/bgm/theme_low.wav",
+      "start": 0.0,
+      "end": 90.0,
+      "gain_db": -18
+    }
+  ],
+  "ambience": [
+    {
+      "file": "audio/ambience/rain_room.wav",
+      "start": 0.0,
+      "end": 90.0,
+      "gain_db": -26
+    }
+  ],
+  "subtitles": "delivery/{{EPISODE}}.srt",
+  "output": {
+    "broadcast": "delivery/{{EPISODE}}_broadcast.mp4",
+    "clean": "delivery/{{EPISODE}}_clean.mp4"
+  }
+}

@@ -1,0 +1,11 @@
+# Generated production files
+production/
+work/
+*.mp4
+*.mov
+*.wav
+*.srt
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "project": "{{EPISODE}}",
+  "spec": {
+    "aspect": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "target_seconds": {{TARGET_SECONDS}}
+  },
+  "mode": {
+    "delivery": ["broadcast", "clean"],
+    "auto": true
+  },
+  "model": {
+    "name": "Seedance",
+    "max_segment_seconds": 8,
+    "max_refs": 2,
+    "first_last_frame": true,
+    "native_audio": false
+  },
+  "stages": {
+    "brief": {"status": "done", "artifact": "brief.md"},
+    "script": {"status": "pending"},
+    "bible": {"status": "pending"},
+    "assets": {"status": "pending"},
+    "shotlist": {"status": "pending"},
+    "preflight": {"status": "pending"},
+    "pilot": {"status": "pending"},
+    "batch": {"status": "pending"},
+    "audio": {"status": "pending"},
+    "edit": {"status": "pending"},
+    "qc": {"status": "pending"},
+    "delivery": {"status": "pending"}
+  },
+  "segments": {},
+  "budget": {
+    "max_takes": 2,
+    "red_max_takes": 3,
+    "calls_used": 0,
+    "calls_cap": 30
+  },
+  "gates": {},
+  "decisions": []
+}

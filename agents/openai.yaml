@@ -1,0 +1,8 @@
+interface:
+  display_name: "Guodance 短剧导演"
+  short_description: "Guodance：从剧本、分镜到成片、配音与质检的短剧流水线"
+  brand_color: "#8B3A2E"
+  default_prompt: "用 $guodance-drama-director 把这份剧本做成一集 90 秒竖屏短剧成片，先出先导片再批量。"
+
+policy:
+  allow_implicit_invocation: true

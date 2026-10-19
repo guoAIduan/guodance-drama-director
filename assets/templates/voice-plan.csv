@@ -1,0 +1,3 @@
+line_id,segment_id,speaker,text,start,end,duration,voice,tags,file
+D01_L01,D01,沈母,"你动过你父亲的书房。",0.0,2.4,2.4,SM_low_slow,"低声,慢,句尾不升",audio/lines/D01_L01.wav
+D02_L01,D02,沈母,"鉴定结果，你比我清楚。",0.0,2.8,2.8,SM_low_slow,"压着,停顿0.5s",audio/lines/D02_L01.wav
